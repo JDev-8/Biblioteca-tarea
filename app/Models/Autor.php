@@ -22,8 +22,4 @@ class Autor extends Model
     public function libros(){
       return $this->belongsToMany(Libro::class, 'libros_x_autores', 'autor_id', 'libro_id');
     }
-
-    public function nacionalidad(){
-      return $this->belongsTo(Pais::class, 'paises', 'nacionalidad', 'pais_id');
-    }
 }
