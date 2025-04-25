@@ -7,7 +7,7 @@
       name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
-    <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+    <link rel="stylesheet" href="https://jdev-8.github.io/Biblioteca-CSS/css/main.css">
   </head>
 <body>
   <div class="full-box login-container cover">
