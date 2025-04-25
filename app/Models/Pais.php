@@ -16,8 +16,4 @@ class Pais extends Model
     protected $fillable = [
       'pais',
     ];
-
-    public function libros(){
-      return $this->hasMany(Autor::class, 'nacionalidad');
-    }
 }
